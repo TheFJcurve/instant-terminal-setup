@@ -3,13 +3,13 @@
 scp .aliases  ~/.aliases
 
 if [[ "$OSTYPE" =~ ^darwin ]]; then
-    scp .bash_profile ~/.zshrc
+    scp .bashrc ~/.zshrc
     scp .aphrodite.zsh-theme ~/.aphrodite.theme.sh
     source ~/.zshrc
 else
-    scp .bash_profile ~/.
+    scp .bashrc ~/.
     scp .aphrodite.theme.sh ~/.aphrodite.theme.sh
-    source ~/.bash_profile
+    source ~/.bashrc
 fi
 
 mkdir -p ~/.ssh 
