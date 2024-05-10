@@ -5,12 +5,17 @@
 git clone https://github.com/TheFJcurve/instant-terminal-setup.git
 ```
 
-3. Going to the directory
+2. Going to the directory
 ```bash
 cd instant-terminal-setup
 ```
 
-2. Running the setup
+3. Running the setup
 ```bash
 source start.sh
+```
+4. Cleanup
+```bash
+cd ..
+rm -rf instant-terminal-setup
 ```
