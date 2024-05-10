@@ -1,0 +1,15 @@
+# Define your shell aliases in this .aliases file.
+# Do not put anything else (e.g. stty, setenv, mesg) into this file.
+
+# e.g.
+# alias a.out './a.out'
+
+alias g++20m="g++-11 -std=c++20 -fmodules-ts -Wall -g"
+alias g++20h="g++-11 -std=c++20 -fmodules-ts -c -x c++-system-header"
+alias g++20i="g++-11 -std=c++20 -Wall -g"
+alias q='exit'
+alias c='clear'
+alias lsa='ls -a'
+alias lsl='ls -l'
+alias vim="vim -X"
+alias strongvalgrind="valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes"
