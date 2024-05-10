@@ -2,6 +2,6 @@
 # in the share directory should NOT be used!
 
 source ~/.aliases
-source ~/.aphorodite.theme.sh
+source ~/.aphrodite.theme.sh
 export EDITOR=vim
 export PATH=${PWD}/bin:$PATH
