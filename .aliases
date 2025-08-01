@@ -4,17 +4,25 @@
 # e.g.
 # alias a.out './a.out'
 
-alias g++20m="g++-11 -std=c++20 -fmodules-ts -Wall -g"
-alias g++20h="g++-11 -std=c++20 -fmodules-ts -c -x c++-system-header"
-alias g++20i="g++-11 -std=c++20 -Wall -g"
+alias g++20m="g++ -std=c++20 -fmodules-ts -Wall -g"
+alias g++20h="g++ -std=c++20 -fmodules-ts -c -x c++-system-header"
+alias g++20i="g++ -std=c++20 -Wall -g"
 alias q='exit'
 alias c='clear'
 alias lsa='ls -a'
 alias lsl='ls -l'
-alias vim="vim -X"
+alias vim="nvim"
 alias ga="git add"
 alias gaa="git add ."
 alias gcm="git commit -m"
 alias gp="git push"
 alias gpp="git pull"
-alias strongvalgrind="valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes"
+alias strongvalgrind='sudo DEBUGINFOD_URLS="https://debuginfod.archlinux.org" valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes'
+alias bright="brightnessctl set"
+alias blt="bluetoothctl"
+alias connect350BT="bluetoothctl connect 00:1B:66:C6:49:E3"
+alias qemu="qemu-system-x86_64 -smp cpus=1 -kernel build/sys/castor -hda build/bootdisk.img -nic none -nographic"
+alias android-studio="./android-studio/bin/studio"
+alias discord='./Discord/Discord'
+alias startdocker='systemctl start docker.service'
+alias startollama='systemctl start ollama.service'
